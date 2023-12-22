@@ -140,6 +140,9 @@ const controlBookmark = function () {
   
 }
 
+const newFeature = function (){
+  console.log('Welcome');
+}
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmark)
   recipeView.addHandlerRender(controlRecipes)
@@ -147,6 +150,7 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark)
   searchView.addHandlerSearch(controlSearchResults)
   paginationView.addHandlerClick(controlPagination)
+  newFeature()
   addRecipeView.addHandlerUpload(controlAddRecipe)
 }
 init();
