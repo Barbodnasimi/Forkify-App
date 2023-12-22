@@ -136,7 +136,6 @@ const controlBookmark = function () {
     console.error(err , ':}}}}}}}}}}}}}}}}}}}}}');
     addRecipeView.renderError(err.message)
   }
-
   
 }
 
